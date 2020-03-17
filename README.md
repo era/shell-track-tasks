@@ -27,13 +27,13 @@ You need to setup where the entries should be saved: `SHELL_TRACK_TASK_FILE='/tm
 
 ### Commands
 
-- Add a new entry: `tt.sh -a 'Doing some good work'`
-- List yesterday tasks: `tt.sh -f -1d`
-- List all tasks: `tt.sh -l`
+- Add a new entry: `./tt.sh -a 'Doing some good work'`
+- List yesterday tasks: `./tt.sh -f -1d`
+- List all tasks: `./tt.sh -l`
 
 
 ### Tip
-I normally add a alias to my dotfile:
+You can add an alias to your dotfile:
 `alias track="sh PATH_TO_THE_REPO/tt.sh"`
 
 
